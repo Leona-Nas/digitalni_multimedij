@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>>Leona Nastasic - moj html dokument</title>
+	<style>
+		body {
+			background-color: rgb(173,216,230);
+		}
+		
+		img {
+			border-radius: 8px;
+			border: 1px solid;
+			padding: 5px;
+		}
+		
+		audio::-webkit-media-controls-panel {
+			background-color: #56AEFF;
+		}
+		
+		audio::-webkit-media-controls-mute-button {
+			background-color: #B1D4E0;
+			border-radius: 50%;
+		}
+		
+		audio::-webkit-media-controls-play-button:hover {
+			background-color: rgba(177,212,224, .7);
+		}
+	
+	
+	</style>
+</head>
+<body>
+	<a href="./index.html">natrag na pocetnu stranicu</a>
+	<h1>Multimedija</h1>
+	<h2>Slike</h2>
+	<img src="./source/20230918_133336.jpg" width="400" height="400">
+	<img src="./source/20220829_164645.jpg" width="400" height="400">
+	<img src="./source/20230913_173507.jpg" width="400" height="400">
+	<h2>Videozapisi</h2>
+	<video width="400" height="400" controls>
+		<source src="./dokumenti/Leona_Nastasic_vjezba9.mp4"/>
+	</video>
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/BY_XwvKogC8?si=PBmSZ6a54FKCCZxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h2>Audio</h2>
+	<audio controls>
+		<source src="./dokumenti/audio.mp3"/>
+	</audio>
+</body>
+</html>
